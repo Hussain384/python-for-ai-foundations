@@ -6,8 +6,12 @@ user_record = ("Ada", "ada@example.com", True)
 
 # Indexing and unpacking work like lists.
 print(point[0])
+print(point[0:1])    # slicing returns a new tuple: (10,)
 x_coordinate, y_coordinate = point
 print(x_coordinate, y_coordinate)
+
+for coordinate in point:
+    print(coordinate)
 
 # A one-item tuple needs a trailing comma.
 single_item = ("Python",)

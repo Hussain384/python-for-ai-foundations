@@ -8,6 +8,17 @@ print(numbers[0])       # first item: 10
 print(numbers[-1])      # last item: 20
 print(numbers[1:3])     # slice: [20, 30]
 
+# Iterate over each item when processing the whole sequence.
+for number in numbers:
+	print(number * 2)
+
+# Lists can contain other structures, such as token sequences or messages.
+messages = [
+	{"role": "user", "content": "Explain lists."},
+	{"role": "assistant", "content": "Lists are ordered and mutable."},
+]
+print(messages[0]["content"])
+
 # Mutating a list.
 numbers.append(40)       # add one item at the end
 numbers.extend([50, 60]) # add multiple items

@@ -30,3 +30,14 @@ profile = {
     "contact": {"email": "ada@example.com", "verified": True},
 }
 print(profile["contact"]["email"])
+
+# Nested structures model API responses, configurations, and model outputs.
+api_response = {
+    "request_id": "abc-123",
+    "choices": [
+        {"message": {"role": "assistant", "content": "Hello"}, "tokens": 3},
+    ],
+    "usage": {"prompt_tokens": 5, "completion_tokens": 3},
+}
+print(api_response["choices"][0]["message"]["content"])
+print(api_response["usage"]["completion_tokens"])

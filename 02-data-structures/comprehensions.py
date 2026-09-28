@@ -22,3 +22,15 @@ print(word_lengths)
 # Nested comprehensions are possible, but readability matters.
 coordinates = [(x, y) for x in range(2) for y in range(2)]
 print(coordinates)
+
+# Common AI data transformations: clean tokens and select active records.
+tokens = [" Python ", "", " data ", "Python"]
+clean_tokens = [token.strip().lower() for token in tokens if token.strip()]
+print(clean_tokens)
+
+records = [
+	{"id": 1, "active": True},
+	{"id": 2, "active": False},
+]
+active_records = {record["id"]: record for record in records if record["active"]}
+print(active_records)

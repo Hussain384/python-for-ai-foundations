@@ -1,0 +1,26 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing",
+    "message": "Please explain the latest charge.",
+    "resolved": true
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "technical",
+    "message": "The export fails on a large file.",
+    "resolved": false
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "billing",
+    "message": "",
+    "resolved": true
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "",
+    "message": "I cannot sign in.",
+    "resolved": false
+  }
+]

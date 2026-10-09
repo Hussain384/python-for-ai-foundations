@@ -1,0 +1,5 @@
+run_id,model,dataset,latency_ms,prompt_tokens,completion_tokens
+run-001,model-alpha,support-v1,142,18,9
+run-002,model-beta,support-v1,187,18,12
+run-003,model-alpha,support-v2,131,22,8
+run-004,model-beta,support-v2,205,22,11

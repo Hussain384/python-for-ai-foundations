@@ -1,0 +1,5 @@
+Reliable data pipelines make their assumptions explicit.
+Text files are sequences of characters decoded using an encoding such as UTF-8.
+JSON is common for nested API responses and configuration.
+CSV is common for tables, but every cell starts as text.
+Large datasets should be processed in chunks or one record at a time.
